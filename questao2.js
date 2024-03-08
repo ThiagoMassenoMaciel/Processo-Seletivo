@@ -4,17 +4,25 @@
 IMPORTANTE:
 Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código;
 */
-const numeroo = 1
 
+console.log(`Resposta da questão 2 é :\n`)
+const numeroo = 54
+const sequencia_fibonacci = calcular_Sequencia_Fibonacci( numeroo)
+const resultado = verificar_se_E_fibonacci(sequencia_fibonacci, numeroo)
 
-  for( let indice = 0 ; indice < array_dos_fibonacci.lenght ; indice++ ){
+console.log(sequencia_fibonacci)
+console.log( `O número 54 é da sequencia fibonacci ? \n${resultado}`)
 
-    if( array_dos_fibonacci[i] === numero){
-      flag = true
+function verificar_se_E_fibonacci(array_dos_fibonacci, numero){
+  
+  let flag = "não , este número não é da sequencia fibonacci." 
+  for( let indice = 0 ; indice < array_dos_fibonacci.length ; indice++ ){
+    if( array_dos_fibonacci[indice] === numero){
+      flag = "sim , este número é da sequencia fibonacci."
     }
-
   }
   return flag
+}
 
 function calcular_Sequencia_Fibonacci( numero){
 
@@ -27,17 +35,12 @@ function calcular_Sequencia_Fibonacci( numero){
   numeros_fibonacci.push(b)
   numeros_fibonacci.push(c)
   
-  while( count < loops ){
-    console.log("---------")
+  while( count < 20 ){
     count++
     a = b 
     b = c 
     c = a + b
     numeros_fibonacci.push(c)
-    console.log(a)
-    console.log(b)
-    console.log(c)
   }
-  console.log(numeros_fibonacci)
   return numeros_fibonacci
 }
