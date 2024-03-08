@@ -22,4 +22,4 @@ do{
   SOMA += K
 }while( K < INDICE)
 
-console.log(`Resposta da questão 1 é : ${SOMA}`)
+console.log(`-------------Resposta da questão 1 é : ${SOMA}`)

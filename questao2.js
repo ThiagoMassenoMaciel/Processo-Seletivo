@@ -5,7 +5,7 @@ IMPORTANTE:
 Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código;
 */
 
-console.log(`Resposta da questão 2 é :\n`)
+console.log(`-------------Resposta da questão 2 é :\n`)
 const numeroo = 54
 const sequencia_fibonacci = calcular_Sequencia_Fibonacci( numeroo)
 const resultado = verificar_se_E_fibonacci(sequencia_fibonacci, numeroo)
@@ -43,5 +43,5 @@ function calcular_Sequencia_Fibonacci( numero){
     numeros_fibonacci.push(c)
   }
   return numeros_fibonacci
-  
+
 }
