@@ -14,7 +14,7 @@ e) 1, 1, 2, 3, 5, 8, ____
 f) 2,10, 12, 16, 17, 18, 19, ____
 
 */
-console.log("-------------Resposta da questão 3 é :")
+console.log("\n-------------Resposta da questão 3 é :")
 console.log("Item a")
 console.log(itemA())
 

@@ -8,7 +8,7 @@ controla cada lâmpada?
 
 
 */
-console.log("-------------Resposta da questão 4 é :")
+console.log("\n-------------Resposta da questão 4 é :")
 
 console.log(" eu posso diferenciar as três lâmpadas com estas 3 caracteristicas  uma quente, uma acesa e outra apagada  ")
 
